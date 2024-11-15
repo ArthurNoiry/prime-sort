@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "prime-sort"
+version = "1.0.0"
+description = "encrypt picture with the prime sorting order"
+authors = ["Arthur Noiry"]
+readme = "README.md"
+packages = [{include = "prime_sort"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+numpy = "^1.21.0"
+pillow = "<8.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
